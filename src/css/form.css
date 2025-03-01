@@ -1,0 +1,95 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 408px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-text > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.form-text > label > input,
+.form-text > label > textarea {
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-text > label > input {
+  height: 40px;
+}
+
+.form-text > label > textarea {
+  height: 80px;
+  resize: none;
+}
+
+.form-text > label > input:focus,
+.form-text > label > textarea:focus {
+  border-color: #000;
+}
+
+.form-button > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.form-button > button:hover {
+  background-color: #6c8cff;
+}
